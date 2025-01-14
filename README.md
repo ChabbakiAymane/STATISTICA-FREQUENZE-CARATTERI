@@ -28,4 +28,7 @@ Le azioni di analisi (statistica effettiva implementata con il sistema di proces
 L’applicazione ideale comprende quindi almeno:
   - Un processo/sottosistema “A” (“Analyzer”) per calcolare le statistiche (che coincide o comprende l’albero descritto con C, P… e Q…)
   - Un processo/sottosistema “R” (“Report”) per recuperare le informazioni
-  - Un processo/sottosistema “M” (“Main”) principale per la gestione generale: ha solo funzione di “gateway” e interfaccia-utente. DEVE richiamare gli altri due processi/sottosistemi di seguito indicati (che devono essere utilizzabili anche autonomamente direttamente da cli)
+  - Un processo/sottosistema “M” (“Main”) principale per la gestione generale: ha solo funzione di “gateway” e interfaccia-utente. DEVE richiamare gli altri due processi/sottosistemi di seguito indicati (che devono essere utilizzabili anche autonomamente direttamente da cli).
+
+---
+Per ulteriori informazioni vedere il file: [*progettoFrequenzaCaratteri.pdf*](https://github.com/ChabbakiAymane/STATISTICA-FREQUENZE-CARATTERI/blob/main/progettoFrequenzaCaratteri.pdf) 
