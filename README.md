@@ -4,6 +4,8 @@ Sistema che gestisce le statistiche della frequenza dei caratteri all’interno 
 Un processo C (“Counter”) principale tiene traccia dei conteggi (ricevendo quindi i dati) i quali devono essere eseguiti da processi separati da esso generati “P_i”, i ∈ {k|1 ≤ k ≤ n} k, n ∈ ℵ che si occupano di gestire ciascuno un sottoinsieme degli input (partizionato in “n” sottogruppi) creando a sua volta “m” figli “Q_{i,j}”, j ∈ {k|1 ≤ k ≤ m} k, m ∈ ℵ (che sono gli unici ad accedere effettivamente ai file da analizzare):
   - ogni processo Q_{i,j} analizza uno spezzone di ogni file di input a cui accede. “n” ed “m” hanno come valore di default rispettivamente 3 e 4 ma possono essere passati come argomenti.
 
+![alt text](https://github.com/ChabbakiAymane/STATISTICA-FREQUENZE-CARATTERI/blob/main/progettoFrequenzaChar.png)
+
 Ponendo n=3 ed m=4, si analizzano 8 files che sono suddivisi in 3 gruppi dati in gestione ai processi P_1, P_2 e P_3:
   - Ad esempio P1 si occupa di analizzare i files F_1, F_2 e F_3 creando 4 sottoprocessi.
 
